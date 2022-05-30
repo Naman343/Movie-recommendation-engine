@@ -70,7 +70,3 @@ if slt.button('Recommend') :
         slt.text(recommended[4])
         slt.image(recommended_movie_posters[4])
         #slt.text(recommended_movie_trailers[4])
-
-audio_file = open('voicemaker.in-speech.wav', 'rb')
-audio_bytes = audio_file.read()
-slt.audio(audio_bytes,format='wav')
